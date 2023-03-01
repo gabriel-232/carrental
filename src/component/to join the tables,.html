@@ -1,0 +1,12 @@
+to join the tables,
+you first create a controller "php artisan make:controller 'anyname you want to name your controller'" in your teminal
+
+locate it and create a function in it
+example 
+function ShowCombinedTables(){
+    return DB::tables('Table1')
+    ->join('Table2',Table2.id,"=",'Table1.id')
+    ->get();
+}
+you the go to your web.php wher the routes are found and create a route for the function example
+"Route::get('Combine',[Type your Controllers name here::class,'your functions name']);

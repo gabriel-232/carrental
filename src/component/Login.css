@@ -1,0 +1,72 @@
+body{
+    background: url("./images/pexels-renan-bomtempo-768037.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+
+}
+.login-logo { 
+    height: 7vmin;
+    pointer-events: none;
+  }
+
+
+.loginpage {
+    border-radius: 34px 0px 0px 34px;
+    text-align: center;
+
+    background-color: white;
+    width: 450px;
+    height: 100vh;
+    float: right;
+    
+}
+.loginInputs {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+.loginform {
+
+    margin-top: 100px;
+    
+    
+   
+}
+.loginform input {
+    border-radius: 10px;
+    width: 240px;
+    margin-bottom: 10px;
+    height: 25px;
+
+   
+}
+.welcome h2{
+    font-family: Forte;
+    font-size: 35px;
+}
+
+.welcome p {
+    margin-top: -22px;
+    font-size: 13px;
+}
+
+.loginbutton {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+.forgotPassword {
+    margin-left: 150px;
+    
+}
+.loginform a {
+    color: black;
+    font-size: smaller;
+}
+
